@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(177, 101, 158);
+    padding: 8px 0;
+    color: rgb(rgb(124, 97, 185), green, blue)
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.articles article {
+    width: 25%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.artciles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/*aqui em baixo nós estamos selecionando tudo da classe "artigo" em article e que seja link "a"
+As alterações feitas foram as seguintes: mudamos o background para azul, a cor do texto para branco,
+o espaçamento para 8px, o display está em linha e bloco e não possui underline (o text-decoration) */ 
+.articles article a {
+    background-color: transparent;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+/*aqui nessa parte, nós acrescentamos uma decoração, o underline sempre que passarmos o mouse por cima */
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.artciles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+#sports {
+    background-color: rgba(204, 173, 173, 0.89);
+}
+
+
+#economy {
+    background-color: rgb(235, 206, 43);
+}
+
+#economy .articles article a {
+    background-color: transparent;
+}
+
+#economy .articles article a:hover{
+    text-decoration: underline;
+}
+
+#travel {
+    background-color: #95B9C7;
+}
+
+#food {
+    background-color: yell;
+}
