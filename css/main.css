@@ -64,10 +64,7 @@ section h2,
     margin-top: 8px;
     margin-bottom: 8px;
 }
-
-/*aqui em baixo nós estamos selecionando tudo da classe "artigo" em article e que seja link "a"
-As alterações feitas foram as seguintes: mudamos o background para azul, a cor do texto para branco,
-o espaçamento para 8px, o display está em linha e bloco e não possui underline (o text-decoration) */ 
+ 
 .articles article a {
     background-color: transparent;
     color: black;
@@ -78,7 +75,6 @@ o espaçamento para 8px, o display está em linha e bloco e não possui underlin
     margin-top: 4px;
 }
 
-/*aqui nessa parte, nós acrescentamos uma decoração, o underline sempre que passarmos o mouse por cima */
 .articles article a:hover {
     text-decoration: underline;
 }
