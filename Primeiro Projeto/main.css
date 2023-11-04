@@ -1,11 +1,3 @@
-.container {
-    width: 1080px;
-    margin: 0 auto;
-    max-width: 760px; /* Defina a largura máxima da caixa conforme necessário */
-    border: 20px solid #000000; /* Adicione uma borda para visualização, você pode personalizá-la como desejado */
-    padding: 20px; /* Adicione preenchimento interno para criar espaço entre o conteúdo e a borda da caixa */
-}
-
 header .cabeçalho {
     display: flex;
     align-items: center;
@@ -16,18 +8,6 @@ header .cabeçalho {
 }
 header h1{
     color: white;
-}
-
-body {
-    background-color: rgb(192, 200, 216);
-}
-
-body p{
-    font-weight: bold;
-}
-
-body h2{
-    color:#2011f0;
 }
 
 header a{
@@ -42,50 +22,75 @@ header li{
     margin-left: 16px;
 }
 
+body {
+    background-color: rgb(192, 200, 216);
+    position: absolute;
+}
 
+body p{
+    font-weight: bold;
+}
 
-
-
-.main-container img {
-    float: left;
-    width: 40%;
-    height: 40%;
-    display: inline-block;
+body h2{
+    color:#2011f0;
 }
 
 
-.small-imgs img{
-    width: 5%;
-    height: 5%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.small-imgs img {
-    margin-bottom: 10px; /* Adicione margem inferior para espaço entre as imagens pequenas */
-}
-
-/*
 .container {
     display: flex;
-    align-items: flex-start;
-}   
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza horizontalmente os elementos no contêiner */
+  }
 
 
-
-.small-imgs img{
-    width: 5%;
-    height: 5%;
-    display: inline-block;
-    vertical-align: middle;
+.caixa1 img {
+    padding-top: 20px;
+    padding-right: 16px;
+    float: left;
+    width: 500px;
+    height: 50%;
 }
 
-*/
+.caixa1 {
+    text-align: left; /* Alinha o texto à esquerda da imagem grande */
 
-.boximgtext {
+  }
 
+  .small-imgs img {
+    margin-top: -27px;
+    width: 6%;
+    height: 45px;
+    margin-bottom: 10px; /* Adicione margem inferior para espaço entre as imagens pequenas */;
 }
-  
+
+
+.imagem.img1 {
+    width: 5%; /* Defina o tamanho desejado para a primeira imagem pequena */
+    height: 9%; /* Defina a altura desejada para a primeira imagem pequena */
+    margin: 10px;
+}
+
+.imagem.img2 {
+    width: 6%; /* Defina o tamanho desejado para a segunda imagem pequena */
+    height: 9%; /* Defina a altura desejada para a segunda imagem pequena */
+    margin: 10px;
+    margin-left: -20px;
+}
+
+.imagem.img3 {
+    width: 80px; /* Defina o tamanho desejado para a terceira imagem pequena */
+    height: 70px; /* Defina a altura desejada para a terceira imagem pequena */
+    margin-top: 0px;
+    margin-left: -40px;
+}
+
+
+
+
+#faleconosco {
+}
+
+
 
 
 .caixa {
@@ -106,7 +111,6 @@ header li{
     color: #fff; /* Cor do texto padrão */
     border: none;
     padding: 10px 20px;
-    cur r: pointer;
 }
 
 #enviar:hover {
