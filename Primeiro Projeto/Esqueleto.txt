@@ -1,0 +1,4 @@
+<input="" placeholder=""> -  - Na caixa que terá o texto informado, irá mostrar a frase que deixar ali como "Seu nome"
+
+<textarea placeholder="Deixe seu comentário (250 max)" maxlength="250"></textarea> - Crio uma caixa de texto
+
